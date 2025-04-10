@@ -5,9 +5,9 @@ import os
 
 START_URLS = {
     "https://hopamchuan.com/rhythm/v/ballad": 10000,
-    "https://hopamchuan.com/rhythm/v/disco": 1000,
-    "https://hopamchuan.com/rhythm/v/blue": 2000,
-    "https://hopamchuan.com/rhythm/v/slow": 1000
+    "https://hopamchuan.com/rhythm/v/disco": 1500,
+    "https://hopamchuan.com/rhythm/v/blue": 3000,
+    "https://hopamchuan.com/rhythm/v/slow": 1500
 }
 
 OUTPUT_FILE = "music_crawling/song_links.txt"
