@@ -49,7 +49,8 @@ for idx, song_link in enumerate(song_links):
     }
 
     # Save to JSON
-    safe_filename = f"{idx:05}_{title.replace(' ', '_').replace('/', '_')}.json"
+    filename = song_link.split('/')[-2]
+    safe_filename = f"{idx:05}_{filename}.json"
     filepath = os.path.join(save_path, safe_filename)
 
     with open(filepath, "w", encoding="utf-8") as out_file:
